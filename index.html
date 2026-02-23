@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>BFL TV — Multiwatch Max 9</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">BFL<span>TV</span></div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>BFL TV MULTIWATCH</h1>
+    <button id="openPlayer">Buka Multiwatch</button>
+  </section>
+</main>
+
+<div class="player-modal" id="playerModal">
+  <div class="player-inner">
+    <div class="player-header">
+      <span>Multiwatch (Max 9)</span>
+      <button id="closePlayer">✕</button>
+    </div>
+    <div class="cards-grid" id="playerGrid" data-layout="1"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
